@@ -1,0 +1,26 @@
+# Versions are the ones the published results were produced with (Python 3.13.5).
+
+# LLM API (generation phase only)
+openai==2.36.0
+python-dotenv==1.1.0
+
+# Dataset loading (only needed to re-download the corpus)
+datasets==4.8.4
+huggingface_hub==0.35.3
+
+# Static metrics
+radon==6.0.1
+cognitive-complexity==1.3.0
+lizard==1.22.1
+
+# Analysis and statistics
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+
+# Reports and figures
+matplotlib==3.10.9
+openpyxl==3.1.5
+markdown==3.10.2
+xhtml2pdf==0.2.17
+reportlab==4.5.1
